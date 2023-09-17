@@ -128,13 +128,12 @@ footer p {
     text-align: right;
     width: 25%; /* Adjust the width as needed */
     background-color: #FFFFF0; /* Off-white background */
-    padding: 20px;
-  padding-top: 10%;
-  text-wrap: wrap;
-  transform: rotate(-2deg);
-  line-height: 2.0;
-  
- /* Adjust the shadow as needed */
+    margin: 20px; /* Use margin instead of padding */
+    margin-top: 10%;
+    text-wrap: wrap; /* It should be 'white-space' */
+    transform: rotate(-2deg);
+    line-height: 2.0;
+    /* Adjust the shadow as needed */
 }
 
 .lside {
@@ -144,11 +143,13 @@ footer p {
     text-align: left;
     width: 45%; /* Adjust the width as needed */
     background-color: #FFFFF0; /* Off-white background */
-    padding: 20px;
-  padding-top: 14%;
-  text-wrap: wrap;
-  transform: rotate(-1deg);
-  line-height: 2.0;
+    margin: 20px; /* Use margin instead of padding */
+    margin-top: 14%;
+    text-wrap: wrap; /* It should be 'white-space' */
+    transform: rotate(-1deg);
+    line-height: 2.0;
+}
+
   
  /* Adjust the shadow as needed */
 }
